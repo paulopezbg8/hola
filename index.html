@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hela2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #ffcccb;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .ice-cream-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .ice-cream-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+        }
+        .ice-cream-item img {
+            max-width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+        .ice-cream-item h3 {
+            margin: 0;
+            padding: 10px 0;
+            background-color: #ffcccb;
+        }
+        .ice-cream-item p {
+            padding: 0 10px 10px;
+            margin: 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hela2</h1>
+        <p>¡Los mejores helados de la ciudad!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="menu">
+            <h2>Menú de Helados</h2>
+            <div class="ice-cream-list">
+                <div class="ice-cream-item">
+                    <img src="https://cdn.recetasderechupete.com/wp-content/uploads/2019/07/shutterstock_1010248351.jpg" alt="Helado de Chocolate">
+                    <h3>Helado de Chocolate</h3>
+                    <p>Delicioso helado de chocolate con trozos de chocolate.</p>
+                </div>
+                <div class="ice-cream-item">
+                    <img src="images/vainilla.jpg" alt="Helado de Vainilla">
+                    <h3>Helado de Vainilla</h3>
+                    <p>Clásico helado de vainilla, perfecto para cualquier ocasión.</p>
+                </div>
+                <div class="ice-cream-item">
+                    <img src="images/fresa.jpg" alt="Helado de Fresa">
+                    <h3>Helado de Fresa</h3>
+                    <p>Fresco helado de fresa con trozos de fruta natural.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Dirección: Av Tlahuac, Ciudad de Mexico, México</p>
+            <p>Teléfono: 55-78-96-87-36</p>
+            <p>Email: hela2@gmail.com</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; Paulette López Aguilar.</p>
+    </footer>
+</body>
+</html>
+```
